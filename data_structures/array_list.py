@@ -36,17 +36,27 @@ class ArrayList:
         if idx >= self.size:
             print("Index is out of range.")
             return
-        if self.size + 1 >= self.capacity:
-            self._resize()
         if idx == -1:
             idx = self.size - 1
         self.array[idx : self.size] = self.array[idx + 1 : self.size + 1]
         self.array[self.size] = None
         self.size -= 1
 
-    # TODO: Implement remove
     def remove(self, value):
-        pass
+        j = 0
+        found = False
+        for i in range(self.size):
+            if self.array[i] != value:
+                self.array[j] = self.array[i]
+                j += 1
+            else:
+                found = True
+        if not found:
+            print("There is no {0} in ArrayList".format(value))
+            return
+        for i in range(j, self.size):
+            self.array[i] = None
+        self.size = j
 
     def __len__(self):
         return self.size
@@ -87,3 +97,10 @@ if __name__ == "__main__":
     print()
 
     print("Check remove")
+    array_list.append("Apple")
+    print(array_list)
+    array_list.remove("Apple")
+    print(array_list)
+    array_list.remove("Lemon")
+    print(array_list)
+    array_list.remove("Banana")
