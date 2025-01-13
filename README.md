@@ -32,6 +32,14 @@ Then, we shift the intended value, v, left by i bits. This will create a number 
 <br></br>
 
 ## Math and Logic Puzzles
+### Checking for Primality
+The task is to determine whether the given number is a prime number.
+
+### Check Prime Numbers
+The task is to count the prime numbers less than the given number.
+
+<br></br>
+
 ## Recursion and Dynamic Programming
 ## Sorting and Searching
 ## Arrays and Strings
