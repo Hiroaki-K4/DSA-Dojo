@@ -41,6 +41,14 @@ The task is to count the prime numbers less than the given number.
 <br></br>
 
 ## Recursion and Dynamic Programming
+### Bottom-Up Approach
+The bottom-up approach is often the most intuitive. We start with knowing how to solve the problem for a simple case, like a list with only one element. Then we figure out how to solve the problem for two elements, then for three elements, and so on. The key here is to think about how you can build the solution for one case off of the previous case (or multiple previous cases).
+
+### Top-Down Approach
+The top-down approach can be more complex since it's less concrete. But sometimes, it's the best way to think about the problem.
+
+<br></br>
+
 ## Sorting and Searching
 ## Arrays and Strings
 ## Linked List
