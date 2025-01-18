@@ -50,6 +50,24 @@ The top-down approach can be more complex since it's less concrete. But sometime
 <br></br>
 
 ## Sorting and Searching
+### Bubble Sort | Runtime: $O(n^2)$ average and worst case. Memory: $O(1)$.
+In bubble sort, we start at the beginning of the array and swap the first two elements if the first is greater than the second. Then, we go to the next pair, and so on, continuously making sweeps of the array until it is sorted. In doing so, the smaller items slowly"bubble" up to the beginning of the list.
+
+### Selection Sort | Runtime: $O(n^2)$ average and worst case. Memory: $O(1)$.
+Selection sort is the child's algorithm: simple, but inefficient. Find the smallest element using a linear scan and move it to the front (swapping it with the front element). Then, find the second smallest and move it, again doing a linear scan. Continue doing this until all the elements are in place.
+
+### Merge Sort | Runtime: $O(n\log(n))$ average and worst case. Memory: Depends.
+Merge sort divides the array in half, sorts each of those halves, and then merges them back together. Each of those halves has the same sorting algorithm applied to it. Eventually, you are merging just two single­ element arrays. It is the "merge" part that does all the heavy lifting.
+
+### Quick Sort | Runtime: $O(n\log(n))$ average, $O(n^2)$ worst case. Memory: $O(\log(n))$.
+In quick sort we pick a random element and partition the array, such that all numbers that are less than the partitioning element come before all elements that are greater than it. The partitioning can be performed efficiently through a series of swaps.
+
+### Binary Search
+In binary search, we look for an element x in a sorted array by first comparing x to the midpoint of the array.
+If xis less than the midpoint, then we search the left half of the array. If x is greater than the midpoint, then we search the right half of the array. We then repeat this process, treating the left and right halves as subar­ rays. Again, we compare x to the midpoint of this subarray and then search either its left or right side. We repeat this process until we either find x or the subarray has size 0.
+
+<br></br>
+
 ## Arrays and Strings
 ## Linked List
 ## Stack and Queue
