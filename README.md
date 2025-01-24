@@ -32,7 +32,23 @@ A linked list is a data structure that represents a sequence of nodes. In a sing
 Unlike an array, a linked list does not provide constant time access to a particular "index" within the list. This means that if you'd like to find the Kth element in the list, you will need to iterate through K elements.
 The benefit of a linked list is that you can add and remove items from the beginning of the list in constant time. For specific applications, this can be useful.
 
+<br></br>
+
 ## Stack and Queue
+### Stack
+The stack data structure is precisely what it sounds like: a stack of data. In certain types of problems, it can be favorable to store data in a stack rather than in an array.  
+A stack uses LIFO (last-in first-out) ordering. That is, as in a stack of dinner plates, the most recent item added to the stack is the first item to be removed.  
+It uses the following operations:
+
+- pop() : Remove the top item from the stack.
+- push(itern): Add an item to the top of the stack.
+- peek(): Return the top of the stack.
+- isEmpty(): Return true if and only if the stack is empty.
+
+Unlike an array, a stack does not offer constant-time access to the i th item. However, it does allow constant­ time adds and removes, as it doesn't require shifting elements around.
+
+<br></br>
+
 ## Trees and Graphs
 
 <br></br>
