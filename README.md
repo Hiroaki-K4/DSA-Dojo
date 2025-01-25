@@ -47,6 +47,17 @@ It uses the following operations:
 
 Unlike an array, a stack does not offer constant-time access to the i th item. However, it does allow constant­ time adds and removes, as it doesn't require shifting elements around.
 
+### Queue
+A queue implements FIFO (first-in first-out) ordering. As in a line or queue at a ticket stand, items are removed from the data structure in the same order that they are added.
+It uses the operations:
+
+- add(item): Add an item to the end of the list.
+- remove(): Remove the first item in the list.
+- peek(): Return the top of the queue.
+- isEmpty(): Return true if and only if the queue is empty.
+
+A queue can also be implemented with a linked list. In fact, they are essentially the same thing, as long as items are added and removed from opposite sides.
+
 <br></br>
 
 ## Trees and Graphs
