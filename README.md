@@ -4,6 +4,11 @@ In this repository, I have implemented basic problems introduced in that book us
 
 <br></br>
 
+# Problems List
+The image below shows the minimum knowledge that we should acquire for coding interviews.
+
+<img src="resources/cracking.png" width='600'>
+
 ## Arrays and Strings
 ### Hash Tables
 A hash table is a data structure that maps keys to values for highly efficient lookup. There are a number of ways of implementing this. Here, we will describe a simple but common implementation.
@@ -61,13 +66,17 @@ A queue can also be implemented with a linked list. In fact, they are essentiall
 <br></br>
 
 ## Trees and Graphs
+### Binary Tree Traversal
+#### In-Order Traversal
+In-order traversal means to "visit" (often, print) the left branch, then the current node, and finally, the right branch. When performed on a binary search tree, it visits the nodes in ascending order (hence the name "in-order").
+
+#### Pre-Order Traversal
+re-order traversal visits the current node before its child nodes (hence the name "pre-order"). In a pre-order traversal, the root is always the first node visited.
+
+#### Post-Order Traversal
+Post-order traversal visits the current node after its child nodes (hence the name "post order"). In a post-order traversal, the root is always the last node visited.
 
 <br></br>
-
-# Problems List
-The image below shows the minimum knowledge that we should acquire for coding interviews.
-
-<img src="resources/cracking.png" width='600'>
 
 ## Bit Manipulation
 ### Get Bit
