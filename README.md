@@ -90,6 +90,10 @@ Finding the minimum element of a min-heap is easy: it's always at the top. The t
 First, we remove the minimum element and swap it with the last element in the heap (the bottommost, rightmost element). Then, we bubble down this element, swapping it with one of its children until the min­ heap property is restored.
 Do we swap it with the left child or the right child? That depends on their values. There's no inherent ordering between the left and right element, but you'll need to take the smaller one in order to maintain the min-heap ordering.
 
+### Tries (Prefix Trees)
+A trie is a variant of an n-ary tree in which characters are stored at each node. Each path down the tree may represent a word.  
+Very commonly, a trie is used to store the entire (English) language for quick prefix lookups. While a hash table can quickly look up whether a string is a valid word, it cannot tell us if a string is a prefix of any valid words. A trie can do this very quickly.
+
 <br></br>
 
 ## Bit Manipulation
