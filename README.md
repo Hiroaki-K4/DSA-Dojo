@@ -94,6 +94,13 @@ Do we swap it with the left child or the right child? That depends on their valu
 A trie is a variant of an n-ary tree in which characters are stored at each node. Each path down the tree may represent a word.  
 Very commonly, a trie is used to store the entire (English) language for quick prefix lookups. While a hash table can quickly look up whether a string is a valid word, it cannot tell us if a string is a prefix of any valid words. A trie can do this very quickly.
 
+### Graphs
+#### Depth-First Search (DFS)
+In DFS, we visit a node a and then iterate through each of a's neighbors. When visiting a node b that is a neighbor of a, we visit all of b's neighbors before going on to a's other neighbors. That is, a exhaustively searches b's branch before any of its other neighbors.  
+Note that pre-order and other forms of tree traversal are a form of DFS. The key difference is that when implementing this algorithm for a graph, we must check if the node has been visited. If we don't, we risk getting stuck in an infinite loop.
+
+#### Breadth-First Search (BFS)
+
 <br></br>
 
 ## Bit Manipulation
