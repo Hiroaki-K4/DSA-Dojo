@@ -100,6 +100,7 @@ In DFS, we visit a node a and then iterate through each of a's neighbors. When v
 Note that pre-order and other forms of tree traversal are a form of DFS. The key difference is that when implementing this algorithm for a graph, we must check if the node has been visited. If we don't, we risk getting stuck in an infinite loop.
 
 #### Breadth-First Search (BFS)
+In BFS, node a visits each of a's neighbors before visiting any of their neighbors. You can think of this as searching level by level out from a. An iterative solution involving a queue usually works best.
 
 <br></br>
 
