@@ -136,6 +136,8 @@ The task is to count the prime numbers less than the given number.
 <br></br>
 
 ## Object Oriented Design
+Object-oriented design questions require a candidate to sketch out the classes and methods to imple­ment technical problems or real-life objects. These problems give-or at least are believed to give­ an interviewer insight into your coding style.
+
 
 <br></br>
 
