@@ -138,6 +138,11 @@ The task is to count the prime numbers less than the given number.
 ## Object Oriented Design
 Object-oriented design questions require a candidate to sketch out the classes and methods to imple­ment technical problems or real-life objects. These problems give-or at least are believed to give­ an interviewer insight into your coding style.
 
+### Singleton Class
+The Singleton pattern ensures that a class has only one instance and ensures access to the instance through the application. It can be useful in cases where you have a "global" object with exactly one instance.
+
+### Factory Method
+The Factory Method offers an interface for creating an instance of a class, with its subclasses deciding which class to instantiate. You might want to implement this with the creator class being abstract and not providing an implementation for the Factory method. Or, you could have the Creator class be a concrete class that provides an implementation for the Factory method.
 
 <br></br>
 
